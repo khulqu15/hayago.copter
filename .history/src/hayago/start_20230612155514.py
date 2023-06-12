@@ -22,8 +22,6 @@ battery = psutil.sensors_battery()
 
 if battery is None:
     print("No battery is detected")
-    db.child("app").child("copters").child("0").child("power").set(int(100))
-    db.child("app").child("copters").child("0").child("isCharging").set(True)
 else:
     plugged = battery.power_plugged
     percent = battery.percent
