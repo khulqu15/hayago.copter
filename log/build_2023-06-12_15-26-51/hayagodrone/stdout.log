@@ -1,0 +1,33 @@
+running egg_info
+creating build/hayagodrone/hayagodrone.egg-info
+writing build/hayagodrone/hayagodrone.egg-info/PKG-INFO
+writing dependency_links to build/hayagodrone/hayagodrone.egg-info/dependency_links.txt
+writing entry points to build/hayagodrone/hayagodrone.egg-info/entry_points.txt
+writing requirements to build/hayagodrone/hayagodrone.egg-info/requires.txt
+writing top-level names to build/hayagodrone/hayagodrone.egg-info/top_level.txt
+writing manifest file 'build/hayagodrone/hayagodrone.egg-info/SOURCES.txt'
+reading manifest file 'build/hayagodrone/hayagodrone.egg-info/SOURCES.txt'
+writing manifest file 'build/hayagodrone/hayagodrone.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/khuluq/Projects/hayagodrone/build/hayagodrone/build
+creating /home/khuluq/Projects/hayagodrone/build/hayagodrone/build/lib
+creating /home/khuluq/Projects/hayagodrone/build/hayagodrone/build/lib/hayagodrone
+copying hayagodrone/__init__.py -> /home/khuluq/Projects/hayagodrone/build/hayagodrone/build/lib/hayagodrone
+running install
+running install_lib
+creating /home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/python3.8/site-packages/hayagodrone
+copying /home/khuluq/Projects/hayagodrone/build/hayagodrone/build/lib/hayagodrone/__init__.py -> /home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/python3.8/site-packages/hayagodrone
+byte-compiling /home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/python3.8/site-packages/hayagodrone/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/khuluq/Projects/hayagodrone/install/hayagodrone/share
+creating /home/khuluq/Projects/hayagodrone/install/hayagodrone/share/ament_index
+creating /home/khuluq/Projects/hayagodrone/install/hayagodrone/share/ament_index/resource_index
+creating /home/khuluq/Projects/hayagodrone/install/hayagodrone/share/ament_index/resource_index/packages
+copying resource/hayagodrone -> /home/khuluq/Projects/hayagodrone/install/hayagodrone/share/ament_index/resource_index/packages
+creating /home/khuluq/Projects/hayagodrone/install/hayagodrone/share/hayagodrone
+copying package.xml -> /home/khuluq/Projects/hayagodrone/install/hayagodrone/share/hayagodrone
+running install_egg_info
+Copying build/hayagodrone/hayagodrone.egg-info to /home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/python3.8/site-packages/hayagodrone-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/khuluq/Projects/hayagodrone/build/hayagodrone/install.log'

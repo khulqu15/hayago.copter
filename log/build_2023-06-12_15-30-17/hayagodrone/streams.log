@@ -1,0 +1,20 @@
+[1.472s] Invoking command in '/home/khuluq/Projects/hayagodrone': PYTHONPATH=/home/khuluq/Projects/hayagodrone/build/hayagodrone/prefix_override:/home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hayagodrone build --build-base /home/khuluq/Projects/hayagodrone/build/hayagodrone/build install --record /home/khuluq/Projects/hayagodrone/build/hayagodrone/install.log --install-scripts $base/lib/hayagodrone --single-version-externally-managed
+[1.988s] running egg_info
+[1.990s] writing build/hayagodrone/hayagodrone.egg-info/PKG-INFO
+[1.990s] writing dependency_links to build/hayagodrone/hayagodrone.egg-info/dependency_links.txt
+[1.991s] writing entry points to build/hayagodrone/hayagodrone.egg-info/entry_points.txt
+[1.991s] writing requirements to build/hayagodrone/hayagodrone.egg-info/requires.txt
+[1.991s] writing top-level names to build/hayagodrone/hayagodrone.egg-info/top_level.txt
+[2.064s] reading manifest file 'build/hayagodrone/hayagodrone.egg-info/SOURCES.txt'
+[2.065s] writing manifest file 'build/hayagodrone/hayagodrone.egg-info/SOURCES.txt'
+[2.066s] running build
+[2.066s] running build_py
+[2.066s] running install
+[2.068s] running install_lib
+[2.070s] running install_data
+[2.071s] running install_egg_info
+[2.074s] removing '/home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/python3.8/site-packages/hayagodrone-0.0.0-py3.8.egg-info' (and everything under it)
+[2.074s] Copying build/hayagodrone/hayagodrone.egg-info to /home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/python3.8/site-packages/hayagodrone-0.0.0-py3.8.egg-info
+[2.076s] running install_scripts
+[2.108s] writing list of installed files to '/home/khuluq/Projects/hayagodrone/build/hayagodrone/install.log'
+[2.152s] Invoked command in '/home/khuluq/Projects/hayagodrone' returned '0': PYTHONPATH=/home/khuluq/Projects/hayagodrone/build/hayagodrone/prefix_override:/home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hayagodrone build --build-base /home/khuluq/Projects/hayagodrone/build/hayagodrone/build install --record /home/khuluq/Projects/hayagodrone/build/hayagodrone/install.log --install-scripts $base/lib/hayagodrone --single-version-externally-managed

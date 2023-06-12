@@ -1,0 +1,93 @@
+[0.732s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.732s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9231eae1c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9231eae1c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f9231eae700>)
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.801s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/khuluq/Projects/hayagodrone'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.830s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in '.'
+[0.830s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in '.': Error(s) in package './package.xml':
+Invalid email "=" for person "khuluq"
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.831s] DEBUG:colcon.colcon_core.package_identification:Python package in '.' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.356s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'python' and name 'hayagodrone'
+[1.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.410s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/khuluq/ros2_ws/install
+[1.413s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/khuluq/tello_ros_ws/install
+[1.416s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 296 installed packages in /opt/ros/foxy
+[1.420s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'hayagodrone' build argument 'cmake_args' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'hayagodrone' build argument 'cmake_target' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'hayagodrone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'hayagodrone' build argument 'cmake_clean_cache' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'hayagodrone' build argument 'cmake_clean_first' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'hayagodrone' build argument 'cmake_force_configure' from command line to 'False'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'hayagodrone' build argument 'ament_cmake_args' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'hayagodrone' build argument 'catkin_cmake_args' from command line to 'None'
+[1.573s] Level 5:colcon.colcon_core.verb:set package 'hayagodrone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.573s] DEBUG:colcon.colcon_core.verb:Building package 'hayagodrone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khuluq/Projects/hayagodrone/build/hayagodrone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khuluq/Projects/hayagodrone/install/hayagodrone', 'merge_install': False, 'path': '/home/khuluq/Projects/hayagodrone', 'symlink_install': False, 'test_result_base': None}
+[1.575s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.583s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/khuluq/Projects/hayagodrone'
+[1.595s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.596s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.596s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khuluq/Projects/hayagodrone': PYTHONPATH=/home/khuluq/Projects/hayagodrone/build/hayagodrone/prefix_override:/home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hayagodrone build --build-base /home/khuluq/Projects/hayagodrone/build/hayagodrone/build install --record /home/khuluq/Projects/hayagodrone/build/hayagodrone/install.log --install-scripts $base/lib/hayagodrone --single-version-externally-managed
+[3.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khuluq/Projects/hayagodrone' returned '0': PYTHONPATH=/home/khuluq/Projects/hayagodrone/build/hayagodrone/prefix_override:/home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/hayagodrone build --build-base /home/khuluq/Projects/hayagodrone/build/hayagodrone/build install --record /home/khuluq/Projects/hayagodrone/build/hayagodrone/install.log --install-scripts $base/lib/hayagodrone --single-version-externally-managed
+[3.748s] Level 1:colcon.colcon_core.environment:checking '/home/khuluq/Projects/hayagodrone/install/hayagodrone' for CMake module files
+[3.749s] Level 1:colcon.colcon_core.environment:checking '/home/khuluq/Projects/hayagodrone/install/hayagodrone' for CMake config files
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/khuluq/Projects/hayagodrone/install/hayagodrone/lib'
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/khuluq/Projects/hayagodrone/install/hayagodrone/bin'
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/pkgconfig/hayagodrone.pc'
+[3.751s] Level 1:colcon.colcon_core.environment:checking '/home/khuluq/Projects/hayagodrone/install/hayagodrone/lib/python3.8/site-packages'
+[3.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('hayagodrone', 'pythonpath')
+[3.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khuluq/Projects/hayagodrone/install/hayagodrone/share/hayagodrone/hook/pythonpath.ps1'
+[3.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khuluq/Projects/hayagodrone/install/hayagodrone/share/hayagodrone/hook/pythonpath.dsv'
+[3.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khuluq/Projects/hayagodrone/install/hayagodrone/share/hayagodrone/hook/pythonpath.sh'
+[3.757s] Level 1:colcon.colcon_core.environment:checking '/home/khuluq/Projects/hayagodrone/install/hayagodrone/bin'
+[3.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hayagodrone)
+[3.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/khuluq/Projects/hayagodrone/install/hayagodrone/share/hayagodrone/package.ps1'
+[3.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khuluq/Projects/hayagodrone/install/hayagodrone/share/hayagodrone/package.dsv'
+[3.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/khuluq/Projects/hayagodrone/install/hayagodrone/share/hayagodrone/package.sh'
+[3.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/khuluq/Projects/hayagodrone/install/hayagodrone/share/hayagodrone/package.bash'
+[3.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/khuluq/Projects/hayagodrone/install/hayagodrone/share/hayagodrone/package.zsh'
+[3.768s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khuluq/Projects/hayagodrone/install/hayagodrone/share/colcon-core/packages/hayagodrone)
+[3.769s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.770s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.771s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.771s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.788s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.788s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.788s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.822s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.825s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khuluq/Projects/hayagodrone/install/local_setup.ps1'
+[3.827s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/khuluq/Projects/hayagodrone/install/_local_setup_util_ps1.py'
+[3.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khuluq/Projects/hayagodrone/install/setup.ps1'
+[3.837s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khuluq/Projects/hayagodrone/install/local_setup.sh'
+[3.839s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/khuluq/Projects/hayagodrone/install/_local_setup_util_sh.py'
+[3.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khuluq/Projects/hayagodrone/install/setup.sh'
+[3.844s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khuluq/Projects/hayagodrone/install/local_setup.bash'
+[3.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khuluq/Projects/hayagodrone/install/setup.bash'
+[3.849s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khuluq/Projects/hayagodrone/install/local_setup.zsh'
+[3.850s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khuluq/Projects/hayagodrone/install/setup.zsh'

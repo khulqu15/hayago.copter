@@ -1,0 +1,3 @@
+source;share/hayagodrone/hook/pythonpath.ps1
+source;share/hayagodrone/hook/pythonpath.dsv
+source;share/hayagodrone/hook/pythonpath.sh
