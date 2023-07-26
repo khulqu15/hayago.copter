@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/khuluq/ros2_ws/install/mavros_extras/include/**",
+        "/home/khuluq/ros2_ws/install/mavros/include/**",
+        "/home/khuluq/ros2_ws/install/mavros_msgs/include/**",
+        "/home/khuluq/ros2_ws/install/libmavconn/include/**",
+        "/home/khuluq/tello_ros_ws/install/tello_msgs/include/**",
+        "/home/khuluq/tello_ros_ws/install/ros2_shared/include/**",
+        "/opt/ros/foxy/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

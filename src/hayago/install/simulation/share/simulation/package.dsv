@@ -1,0 +1,3 @@
+source;share/simulation/hook/pythonpath.ps1
+source;share/simulation/hook/pythonpath.dsv
+source;share/simulation/hook/pythonpath.sh

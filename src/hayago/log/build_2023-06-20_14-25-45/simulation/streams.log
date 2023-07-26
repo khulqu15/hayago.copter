@@ -1,0 +1,35 @@
+[1.829s] Invoking command in '/home/khuluq/Projects/hayagodrone/src/hayago': PYTHONPATH=/home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/prefix_override:/home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/simulation build --build-base /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build install --record /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/install.log --install-scripts $base/lib/simulation --single-version-externally-managed
+[2.595s] running egg_info
+[2.596s] creating build/simulation/simulation.egg-info
+[2.597s] writing build/simulation/simulation.egg-info/PKG-INFO
+[2.597s] writing dependency_links to build/simulation/simulation.egg-info/dependency_links.txt
+[2.598s] writing entry points to build/simulation/simulation.egg-info/entry_points.txt
+[2.598s] writing requirements to build/simulation/simulation.egg-info/requires.txt
+[2.598s] writing top-level names to build/simulation/simulation.egg-info/top_level.txt
+[2.602s] writing manifest file 'build/simulation/simulation.egg-info/SOURCES.txt'
+[2.712s] reading manifest file 'build/simulation/simulation.egg-info/SOURCES.txt'
+[2.714s] writing manifest file 'build/simulation/simulation.egg-info/SOURCES.txt'
+[2.715s] running build
+[2.715s] running build_py
+[2.715s] creating /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build
+[2.716s] creating /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib
+[2.716s] creating /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib/simulation
+[2.716s] copying simulation/__init__.py -> /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib/simulation
+[2.716s] running install
+[2.718s] running install_lib
+[2.721s] creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation
+[2.722s] copying /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib/simulation/__init__.py -> /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation
+[2.723s] byte-compiling /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation/__init__.py to __init__.cpython-38.pyc
+[2.728s] running install_data
+[2.729s] creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share
+[2.730s] creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index
+[2.730s] creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index/resource_index
+[2.730s] creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index/resource_index/packages
+[2.731s] copying resource/simulation -> /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index/resource_index/packages
+[2.739s] creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/simulation
+[2.740s] copying package.xml -> /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/simulation
+[2.740s] running install_egg_info
+[2.740s] Copying build/simulation/simulation.egg-info to /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info
+[2.741s] running install_scripts
+[2.785s] writing list of installed files to '/home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/install.log'
+[2.866s] Invoked command in '/home/khuluq/Projects/hayagodrone/src/hayago' returned '0': PYTHONPATH=/home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/prefix_override:/home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/simulation build --build-base /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build install --record /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/install.log --install-scripts $base/lib/simulation --single-version-externally-managed

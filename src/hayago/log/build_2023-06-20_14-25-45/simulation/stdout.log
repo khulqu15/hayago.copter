@@ -1,0 +1,33 @@
+running egg_info
+creating build/simulation/simulation.egg-info
+writing build/simulation/simulation.egg-info/PKG-INFO
+writing dependency_links to build/simulation/simulation.egg-info/dependency_links.txt
+writing entry points to build/simulation/simulation.egg-info/entry_points.txt
+writing requirements to build/simulation/simulation.egg-info/requires.txt
+writing top-level names to build/simulation/simulation.egg-info/top_level.txt
+writing manifest file 'build/simulation/simulation.egg-info/SOURCES.txt'
+reading manifest file 'build/simulation/simulation.egg-info/SOURCES.txt'
+writing manifest file 'build/simulation/simulation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build
+creating /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib
+creating /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib/simulation
+copying simulation/__init__.py -> /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib/simulation
+running install
+running install_lib
+creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation
+copying /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib/simulation/__init__.py -> /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation
+byte-compiling /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share
+creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index
+creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index/resource_index
+creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index/resource_index/packages
+copying resource/simulation -> /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index/resource_index/packages
+creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/simulation
+copying package.xml -> /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/simulation
+running install_egg_info
+Copying build/simulation/simulation.egg-info to /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/install.log'

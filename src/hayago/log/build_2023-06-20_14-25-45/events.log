@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.002425] (simulation) JobQueued: {'identifier': 'simulation', 'dependencies': OrderedDict()}
+[0.002614] (simulation) JobStarted: {'identifier': 'simulation'}
+[0.099467] (-) TimerEvent: {}
+[0.200031] (-) TimerEvent: {}
+[0.300389] (-) TimerEvent: {}
+[0.400751] (-) TimerEvent: {}
+[0.501121] (-) TimerEvent: {}
+[0.601620] (-) TimerEvent: {}
+[0.702141] (-) TimerEvent: {}
+[0.802549] (-) TimerEvent: {}
+[0.903018] (-) TimerEvent: {}
+[1.003423] (-) TimerEvent: {}
+[1.103983] (-) TimerEvent: {}
+[1.204489] (-) TimerEvent: {}
+[1.304878] (-) TimerEvent: {}
+[1.405365] (-) TimerEvent: {}
+[1.505862] (-) TimerEvent: {}
+[1.606323] (-) TimerEvent: {}
+[1.706800] (-) TimerEvent: {}
+[1.807306] (-) TimerEvent: {}
+[1.830378] (simulation) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/simulation', 'build', '--build-base', '/home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build', 'install', '--record', '/home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/install.log', '--install-scripts', '$base/lib/simulation', '--single-version-externally-managed'], 'cwd': '/home/khuluq/Projects/hayagodrone/src/hayago', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GeographicLib_DATA': '/usr/share/GeographicLib/', 'USER': 'khuluq', 'LC_TIME': 'id_ID.UTF-8', 'SSH_AGENT_PID': '1790', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/khuluq/ros2_ws/install/mavros_extras/lib:/home/khuluq/ros2_ws/install/mavros/lib:/home/khuluq/ros2_ws/install/mavros_msgs/lib:/home/khuluq/ros2_ws/install/libmavconn/lib:/home/khuluq/tello_ros_ws/install/tello_gazebo/lib:/home/khuluq/tello_ros_ws/install/tello_driver/lib:/home/khuluq/tello_ros_ws/install/tello_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/khuluq', 'OLDPWD': '/home/khuluq/Projects/hayagodrone/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '1602', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/khuluq/ros2_ws/install:/home/khuluq/tello_ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'khuluq', 'JOURNAL_STREAM': '8:48258', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'khuluq', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/khuluq/ardupilot_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/khuluq/STM32MPU/STM32CubeProgrammer/bin:/usr/lib/ccache:/opt/ros/foxy/bin:/home/khuluq/.cargo/bin:/usr/lib/ccache:/home/khuluq/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/khuluq/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/khuluq/ardupilot/Tools/autotest:/home/khuluq/Android/Sdk/tools:/opt/timedoctor2', 'SESSION_MANAGER': 'local/ninno:@/tmp/.ICE-unix/1826,unix/ninno:/tmp/.ICE-unix/1826', 'INVOCATION_ID': 'dc33a212b9b543ca8bbf0c8fdd47116a', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d147538d_2dfa_47a8_b6cd_199e22de8bcb', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.269', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/khuluq/ros2_ws/install/orbbit_drone:/home/khuluq/ros2_ws/install/mavros_extras:/home/khuluq/ros2_ws/install/mavros:/home/khuluq/ros2_ws/install/mavros_msgs:/home/khuluq/ros2_ws/install/libmavconn:/home/khuluq/tello_ros_ws/install/tello_gazebo:/home/khuluq/tello_ros_ws/install/tello_driver:/home/khuluq/tello_ros_ws/install/tello_msgs:/home/khuluq/tello_ros_ws/install/tello_description:/home/khuluq/tello_ros_ws/install/ros2_shared:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/khuluq/Projects/hayagodrone/src/hayago/build/simulation', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'ANDROID_HOME': '/home/khuluq/Android/Sdk', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/prefix_override:/home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages:/home/khuluq/ros2_ws/install/mavros/lib/python3.8/site-packages:/home/khuluq/ros2_ws/install/mavros_msgs/lib/python3.8/site-packages:/home/khuluq/tello_ros_ws/install/tello_msgs/lib/python3.8/site-packages:/home/khuluq/tello_ros_ws/install/tello_commander/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/khuluq/ros2_ws/install/orbbit_drone:/home/khuluq/ros2_ws/install/mavros_extras:/home/khuluq/ros2_ws/install/mavros:/home/khuluq/ros2_ws/install/mavros_msgs:/home/khuluq/ros2_ws/install/libmavconn:/home/khuluq/tello_ros_ws/install/tello_gazebo:/home/khuluq/tello_ros_ws/install/tello_driver:/home/khuluq/tello_ros_ws/install/tello_msgs:/home/khuluq/tello_ros_ws/install/tello_description:/home/khuluq/tello_ros_ws/install/ros2_shared'}, 'shell': False}
+[1.907519] (-) TimerEvent: {}
+[2.008321] (-) TimerEvent: {}
+[2.108993] (-) TimerEvent: {}
+[2.209444] (-) TimerEvent: {}
+[2.309920] (-) TimerEvent: {}
+[2.410397] (-) TimerEvent: {}
+[2.510858] (-) TimerEvent: {}
+[2.597019] (simulation) StdoutLine: {'line': b'running egg_info\n'}
+[2.598311] (simulation) StdoutLine: {'line': b'creating build/simulation/simulation.egg-info\n'}
+[2.599086] (simulation) StdoutLine: {'line': b'writing build/simulation/simulation.egg-info/PKG-INFO\n'}
+[2.599789] (simulation) StdoutLine: {'line': b'writing dependency_links to build/simulation/simulation.egg-info/dependency_links.txt\n'}
+[2.600188] (simulation) StdoutLine: {'line': b'writing entry points to build/simulation/simulation.egg-info/entry_points.txt\n'}
+[2.600572] (simulation) StdoutLine: {'line': b'writing requirements to build/simulation/simulation.egg-info/requires.txt\n'}
+[2.600835] (simulation) StdoutLine: {'line': b'writing top-level names to build/simulation/simulation.egg-info/top_level.txt\n'}
+[2.604004] (simulation) StdoutLine: {'line': b"writing manifest file 'build/simulation/simulation.egg-info/SOURCES.txt'\n"}
+[2.610994] (-) TimerEvent: {}
+[2.711488] (-) TimerEvent: {}
+[2.714185] (simulation) StdoutLine: {'line': b"reading manifest file 'build/simulation/simulation.egg-info/SOURCES.txt'\n"}
+[2.716465] (simulation) StdoutLine: {'line': b"writing manifest file 'build/simulation/simulation.egg-info/SOURCES.txt'\n"}
+[2.717015] (simulation) StdoutLine: {'line': b'running build\n'}
+[2.717352] (simulation) StdoutLine: {'line': b'running build_py\n'}
+[2.717786] (simulation) StdoutLine: {'line': b'creating /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build\n'}
+[2.718079] (simulation) StdoutLine: {'line': b'creating /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib\n'}
+[2.718354] (simulation) StdoutLine: {'line': b'creating /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib/simulation\n'}
+[2.718626] (simulation) StdoutLine: {'line': b'copying simulation/__init__.py -> /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib/simulation\n'}
+[2.718984] (simulation) StdoutLine: {'line': b'running install\n'}
+[2.720310] (simulation) StdoutLine: {'line': b'running install_lib\n'}
+[2.723166] (simulation) StdoutLine: {'line': b'creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation\n'}
+[2.723937] (simulation) StdoutLine: {'line': b'copying /home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/build/lib/simulation/__init__.py -> /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation\n'}
+[2.725599] (simulation) StdoutLine: {'line': b'byte-compiling /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation/__init__.py to __init__.cpython-38.pyc\n'}
+[2.730066] (simulation) StdoutLine: {'line': b'running install_data\n'}
+[2.731797] (simulation) StdoutLine: {'line': b'creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share\n'}
+[2.732383] (simulation) StdoutLine: {'line': b'creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index\n'}
+[2.732689] (simulation) StdoutLine: {'line': b'creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index/resource_index\n'}
+[2.732976] (simulation) StdoutLine: {'line': b'creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index/resource_index/packages\n'}
+[2.733225] (simulation) StdoutLine: {'line': b'copying resource/simulation -> /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/ament_index/resource_index/packages\n'}
+[2.741313] (simulation) StdoutLine: {'line': b'creating /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/simulation\n'}
+[2.742205] (simulation) StdoutLine: {'line': b'copying package.xml -> /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/share/simulation\n'}
+[2.742457] (simulation) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.742674] (simulation) StdoutLine: {'line': b'Copying build/simulation/simulation.egg-info to /home/khuluq/Projects/hayagodrone/src/hayago/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info\n'}
+[2.742890] (simulation) StdoutLine: {'line': b'running install_scripts\n'}
+[2.787857] (simulation) StdoutLine: {'line': b"writing list of installed files to '/home/khuluq/Projects/hayagodrone/src/hayago/build/simulation/install.log'\n"}
+[2.811757] (-) TimerEvent: {}
+[2.853819] (simulation) CommandEnded: {'returncode': 0}
+[2.913099] (-) TimerEvent: {}
+[2.915064] (simulation) JobEnded: {'identifier': 'simulation', 'rc': 0}
+[2.917517] (-) EventReactorShutdown: {}
