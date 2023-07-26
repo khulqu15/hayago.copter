@@ -2,7 +2,7 @@ import time
 import serial
 import os, time
 cmd=''
-ser = serial.Serial('/dev/ttyAMA0', 9600, timeout=1)
+ser = serial.Serial('/dev/ttyS0', 9600, timeout=1)
 ser.reset_input_buffer()
 while True:
     smd=input("please enter a command: ")
