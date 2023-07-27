@@ -66,5 +66,5 @@ if __name__=="__main__":
     sim = SIM900("/dev/ttyAMA0",19200,1.0)
     sim.connect()
     #sim.call()
-    sim.sendMessage("+905320594458","ConnectDisconnect")
+    sim.sendMessage("+62895396004952","ConnectDisconnect")
     sim.disconnect()
